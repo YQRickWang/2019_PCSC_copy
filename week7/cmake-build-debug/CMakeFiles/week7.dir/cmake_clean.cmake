@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/week7.dir/Graduate.cpp.obj"
+  "CMakeFiles/week7.dir/Student.cpp.obj"
   "CMakeFiles/week7.dir/main.cpp.obj"
   "week7.exe"
   "week7.exe.manifest"

@@ -124,6 +124,60 @@ week7\fast:
 	$(MAKE) -f CMakeFiles\week7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\week7.dir\build
 .PHONY : week7\fast
 
+Graduate.obj: Graduate.cpp.obj
+
+.PHONY : Graduate.obj
+
+# target to build an object file
+Graduate.cpp.obj:
+	$(MAKE) -f CMakeFiles\week7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\week7.dir\Graduate.cpp.obj
+.PHONY : Graduate.cpp.obj
+
+Graduate.i: Graduate.cpp.i
+
+.PHONY : Graduate.i
+
+# target to preprocess a source file
+Graduate.cpp.i:
+	$(MAKE) -f CMakeFiles\week7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\week7.dir\Graduate.cpp.i
+.PHONY : Graduate.cpp.i
+
+Graduate.s: Graduate.cpp.s
+
+.PHONY : Graduate.s
+
+# target to generate assembly for a file
+Graduate.cpp.s:
+	$(MAKE) -f CMakeFiles\week7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\week7.dir\Graduate.cpp.s
+.PHONY : Graduate.cpp.s
+
+Student.obj: Student.cpp.obj
+
+.PHONY : Student.obj
+
+# target to build an object file
+Student.cpp.obj:
+	$(MAKE) -f CMakeFiles\week7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\week7.dir\Student.cpp.obj
+.PHONY : Student.cpp.obj
+
+Student.i: Student.cpp.i
+
+.PHONY : Student.i
+
+# target to preprocess a source file
+Student.cpp.i:
+	$(MAKE) -f CMakeFiles\week7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\week7.dir\Student.cpp.i
+.PHONY : Student.cpp.i
+
+Student.s: Student.cpp.s
+
+.PHONY : Student.s
+
+# target to generate assembly for a file
+Student.cpp.s:
+	$(MAKE) -f CMakeFiles\week7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\week7.dir\Student.cpp.s
+.PHONY : Student.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -160,6 +214,12 @@ help:
 	@echo ... week7
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Graduate.obj
+	@echo ... Graduate.i
+	@echo ... Graduate.s
+	@echo ... Student.obj
+	@echo ... Student.i
+	@echo ... Student.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

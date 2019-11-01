@@ -82,6 +82,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/A_github repos/2019_PCSC_copy/week7/Graduate.cpp">
+			<Option target="week7"/>
+		</Unit>
+		<Unit filename="D:/A_github repos/2019_PCSC_copy/week7/Graduate.h">
+			<Option target="week7"/>
+		</Unit>
+		<Unit filename="D:/A_github repos/2019_PCSC_copy/week7/Student.cpp">
+			<Option target="week7"/>
+		</Unit>
+		<Unit filename="D:/A_github repos/2019_PCSC_copy/week7/Student.h">
+			<Option target="week7"/>
+		</Unit>
 		<Unit filename="D:/A_github repos/2019_PCSC_copy/week7/main.cpp">
 			<Option target="week7"/>
 		</Unit>

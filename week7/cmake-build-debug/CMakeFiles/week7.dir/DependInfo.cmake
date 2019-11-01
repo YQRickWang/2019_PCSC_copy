@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/A_github repos/2019_PCSC_copy/week7/Graduate.cpp" "D:/A_github repos/2019_PCSC_copy/week7/cmake-build-debug/CMakeFiles/week7.dir/Graduate.cpp.obj"
+  "D:/A_github repos/2019_PCSC_copy/week7/Student.cpp" "D:/A_github repos/2019_PCSC_copy/week7/cmake-build-debug/CMakeFiles/week7.dir/Student.cpp.obj"
   "D:/A_github repos/2019_PCSC_copy/week7/main.cpp" "D:/A_github repos/2019_PCSC_copy/week7/cmake-build-debug/CMakeFiles/week7.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

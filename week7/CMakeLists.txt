@@ -3,4 +3,4 @@ project(week7)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(week7 main.cpp)
+add_executable(week7 main.cpp Student.cpp Student.h Graduate.cpp Graduate.h)
