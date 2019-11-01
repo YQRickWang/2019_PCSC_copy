@@ -2,7 +2,7 @@
 // Created by Rick Wang on 2019/10/28.
 //
 
-#include "ComplexNumber.h"
+#include "ComplexNumber.hpp"
 #include <cmath>
 
 ComplexNumber::ComplexNumber()
@@ -15,6 +15,20 @@ ComplexNumber::ComplexNumber(double x, double y)
 {
     mRealPart = x;
     mImaginaryPart = y;
+}
+
+//constructor that define real part is x and imaginary part is 0
+ComplexNumber::ComplexNumber(double x)
+{
+    mRealPart = x;
+    mImaginaryPart = 0;
+}
+
+//overridden copy constructor
+ComplexNumber::ComplexNumber(const ComplexNumber &otherNumber)
+{
+    mRealPart = otherNumber.mRealPart;//or use get method?
+    mImaginaryPart = otherNumber.mImaginaryPart;
 }
 
 double ComplexNumber::CalculateModulus() const
@@ -40,6 +54,18 @@ ComplexNumber ComplexNumber::CalculatePower(double n) const
     return z;
 }
 
+ComplexNumber ComplexNumber::CalculateConjugate() const
+{
+    ComplexNumber z(this->mRealPart,-(this->mImaginaryPart));
+
+    return z;
+}
+
+void ComplexNumber::SetConjugate()
+{
+    this->mImaginaryPart = -(this->mImaginaryPart);
+}
+
 ComplexNumber& ComplexNumber::operator=(const ComplexNumber& z)
 {
     mRealPart = z.mRealPart;
@@ -60,7 +86,7 @@ ComplexNumber ComplexNumber::operator-() const
 ComplexNumber ComplexNumber::operator+(const ComplexNumber &z) const
 {
     ComplexNumber w;
-    w.mRealPart - mRealPart + z.mRealPart;
+    w.mRealPart = mRealPart + z.mRealPart;
     w.mImaginaryPart = mImaginaryPart + z.mImaginaryPart;
     return w;
 }
@@ -84,6 +110,8 @@ std::ostream& operator<<(std::ostream& output, const ComplexNumber& z)
     {
         output << "- " << -z.mImaginaryPart << "i)";
     }
+
+    return output;
 }
 
 //get realpart and imaginary part

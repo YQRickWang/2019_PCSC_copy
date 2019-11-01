@@ -11,9 +11,13 @@ private:
 public:
     ComplexNumber();
     ComplexNumber(double x, double y);
+    ComplexNumber(double x);//only define real number
+    ComplexNumber(const ComplexNumber& otherNumber);
     double CalculateModulus() const;
     double CalculateArgument() const;
     ComplexNumber CalculatePower(double n) const;
+    ComplexNumber CalculateConjugate() const;
+    void SetConjugate();
     ComplexNumber& operator=(const ComplexNumber& z);
     ComplexNumber operator-() const;
     ComplexNumber operator+(const ComplexNumber& z) const;

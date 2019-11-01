@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/A_github repos/2019_PCSC_copy/week6/ComplexNumber.cpp
+ComplexNumber.hpp
+D:/A_github repos/2019_PCSC_copy/week6/ComplexNumber.hpp
+cmath
+-
+
+D:/A_github repos/2019_PCSC_copy/week6/ComplexNumber.hpp
+iostream
+-
+

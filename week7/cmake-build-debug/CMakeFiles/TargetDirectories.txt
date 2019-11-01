@@ -1,0 +1,3 @@
+D:/A_github repos/2019_PCSC_copy/week7/cmake-build-debug/CMakeFiles/week7.dir
+D:/A_github repos/2019_PCSC_copy/week7/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/A_github repos/2019_PCSC_copy/week7/cmake-build-debug/CMakeFiles/rebuild_cache.dir

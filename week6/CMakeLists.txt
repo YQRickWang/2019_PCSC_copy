@@ -3,4 +3,4 @@ project(week6)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(week6 main.cpp ComplexNumber.cpp ComplexNumber.h)
+add_executable(week6 main.cpp ComplexNumber.cpp ComplexNumber.hpp)
